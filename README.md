@@ -3,6 +3,6 @@ WordPress theme and custom functions plugin for <a href="http://educasound.com" 
 
 Originally designed and developed in December 2015.
 
-Edited on november 2016 for some changes.
+Edited on November 2016 for some changes.
 
 by: <a href="http://robertotunon.com" target="_blank">roberto tuñón</a>
