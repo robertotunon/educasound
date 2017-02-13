@@ -1,0 +1,214 @@
+//_____ Reserva form _____//
+.modal
+	form
+		fieldset
+			border none
+			margin 0 0 1.5rem
+			padding 0
+			@media (max-height:1024px)
+				margin 0 0 1.75rem
+			section
+				justify-content space-between
+				align-items center
+			legend
+				font-weight 400
+				font-size 1.15rem
+				line-height 1em
+				margin 0 0 .5rem
+				-webkit-appearance none
+				-moz-appearance none
+				flex-basis 100%
+			select,
+			input
+				font-size 1.15rem
+				line-height 1.25em
+				margin 0 0 1rem 0
+				padding .5rem 1rem
+				border-radius 0
+				background-color white
+				border 1px solid gris_claro
+				box-sizing border-box
+				-webkit-appearance none
+				&:focus
+					outline none
+			select
+				background url(../svg/icon_arrow-down.svg) no-repeat right 1rem center
+				&#months
+				&#years
+					flex-basis 40%
+					color gris_masclaro
+			input[type='text']
+			input[type='email']
+				flex-basis 49%
+				&:focus
+					outline none
+					border-color light
+				@media (max-width: 640px)
+					flex-basis 46%
+				&:nth-of-type(odd)
+					@media (max-width: 640px)
+						margin 0 .25rem 1rem 0
+				&#cardnum
+					flex-basis 100%
+				&#cvv
+					flex-basis 15%
+				&#address
+					flex-basis 100%
+		.dates
+			select
+				width 100%
+		.resumen
+			margin 0 0 2rem
+			align-items baseline
+			justify-content space-between
+			.resumen_title
+			flex-basis 100%
+			.description
+			flex-basis 72%
+			h4
+				font-weight 400
+				font-size 1.2rem
+				line-height 1em
+				margin 0 0 .5rem
+			.item
+				font-weight 700
+				font-size 1.15rem
+				line-height 1.15em
+				color negro
+				margin 0
+			.item_name
+				font-size 1.05rem
+				margin 0
+			.item_dates
+				font-size 1rem
+				margin 0
+			.total
+			font-size 2rem
+			line-height 1em
+			text-align right
+			margin 0
+			flex-basis 27%
+			align-self flex-end
+			span
+				display block
+				font-weight 300
+				font-size .75rem
+				line-height 1.15em
+				color gris_claro
+		input[type='submit']
+			width 100%
+			font-weight 700
+			font-size 1.25rem
+			text-transform uppercase
+			color white
+			margin 0 auto
+			padding 1rem 0
+			box-sizing border-box
+			background-color primary
+			border none
+			outline none
+			transition all .25s ease
+			@media (max-height:750px)
+				position initial
+				margin 1rem 0 0
+			&:hover
+				background-color secondary
+
+//_____ Graviti forms _____//
+.gform_wrapper
+	margin 0 !important
+	.gform_body
+		width 100% !important
+	.gfield
+	form li
+		margin 0 !important
+		padding 0 !important
+		width 100% !important
+		input
+		select
+			display block
+			width 100% !important
+			margin 0 0 1rem !important
+			padding .5rem 1rem !important
+			line-height 1em
+			height 2.375rem
+			border-color gris_masclaro
+			&:focus
+				outline none
+				border-color light
+		select
+			background url(../svg/icon_arrow-down.svg) no-repeat right 1rem center
+			border-radius 0
+			-webkit-appearance none
+			-moz-appearance none
+	.gfield_description
+		margin 0 0 .5rem !important
+		padding 0 !important
+		width 100% !important
+	.ginput_container
+		margin 0 !important
+		padding 0 !important
+		width 100% !important
+		span
+			padding 0 !important
+	.legend
+		border none !important
+		margin 0 0 .5rem !important
+	.gfield_label
+	.gsection_title
+		display block !important
+		font-weight 400 !important
+		font-size 1.15rem !important
+		line-height 1em !important
+		margin 0 0 .25rem !important
+	.ginput_left
+	.ginput_right
+		max-width 49% !important
+		padding 0 !important
+		display inline-block !important
+		vertical-align baseline !important
+		@media (max-height:641px)
+			display inline-block !important
+	.ginput_left
+		margin-right 2% !important
+	#field_3_8
+	#field_3_9
+		display inline-block
+		max-width 49%
+	#field_3_8
+		margin 0 2% 0 0 !important
+	#field_3_11
+		margin 0 0 1rem !important
+	.ginput_complex.ginput_container_address span.ginput_right+span.ginput_left.address_zip
+		@media (min-width: 641px)
+			padding-right 0 !important
+	.gfield_required
+		display none
+	label[for="input_3_7"]
+		display none !important
+	.address_country
+		select
+			text-indent 0 !important
+			line-height 1.25em !important
+	.ginput_product_price_label
+		display none
+	.ginput_product_price
+		color gris_claro !important
+		font-size 1.5rem
+		color secondary !important
+	.gform_button
+		display block
+		width 100% !important
+		font-size 1.25rem !important
+		text-transform uppercase !important
+		margin 0 !important
+		display block !important
+		cursor pointer !important
+#field_3_12
+	h3
+		font-size 1.5rem
+		line-height 1em
+		margin 0 0 .5rem
+#field_4_4
+	p
+		margin 0 0 1rem

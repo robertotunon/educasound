@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12005) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_document</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="EducaSound_ficha_curso" sketch:type="MSArtboardGroup" transform="translate(-840.000000, -1463.000000)" fill="#FFFFFF">
+            <g id="ficha_curso" sketch:type="MSLayerGroup" transform="translate(0.000000, 160.000000)">
+                <g id="Temario" transform="translate(0.000000, 964.000000)" sketch:type="MSShapeGroup">
+                    <g id="btn_temario" transform="translate(830.000000, 329.000000)">
+                        <g id="icon_document" transform="translate(10.000000, 10.000000)">
+                            <path d="M5.47421053,0 L0,5.3476 L0,20 L15,20 L15,0 L5.47421053,0 L5.47421053,0 Z M5.13157895,2.29 L5.13157895,5 L2.45703947,5 L5.13157895,2.29 L5.13157895,2.29 Z M13.6184211,18.6 L1.38157895,18.6 L1.38157895,6.4 L6.51315789,6.4 L6.51315789,1.4 L13.6184211,1.4 L13.6184211,18.6 L13.6184211,18.6 Z" id="Shape"></path>
+                            <rect id="Rectangle-path" x="3.15789474" y="8" width="7.89473684" height="1.6"></rect>
+                            <rect id="Rectangle-path" x="3.15789474" y="11.2" width="7.89473684" height="1.6"></rect>
+                            <rect id="Rectangle-path" x="3.15789474" y="14.4" width="3.94736842" height="1.6"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

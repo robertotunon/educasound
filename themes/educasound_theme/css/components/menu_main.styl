@@ -1,0 +1,45 @@
+/*_______ Main menu _______*/
+.main_menu
+	transition all 0.35s ease-out
+	@media (max-width: 640px)
+		width 220px
+		height 100%
+		position fixed
+		top 0
+		right -220px
+		margin 0 !important
+		padding 4rem 2rem 2rem
+		background-color primary
+		box-shadow 1px 1px 5px
+		box-sizing border-box
+		z-index 5
+	ul
+		list-style none
+		margin 0
+		padding 0
+		text-align center
+		li
+			display inline-block
+			margin 0 1rem
+			@media (max-width: 640px)
+				display block
+				text-align center
+				padding 1rem 0
+			a
+				font-weight 400
+				font-size 1rem
+				text-transform uppercase
+				@media (max-width: 640px)
+					display block
+					font-size 1.15rem
+				&:hover
+					color primary
+					@media (max-width: 640px)
+						color white
+				&:active
+					color white
+				&.current-menu-item
+					a
+						border-bottom 2px solid secondary
+						@media (max-width: 640px)
+							border none

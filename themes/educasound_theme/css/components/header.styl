@@ -1,0 +1,86 @@
+/*_______ Header _______*/
+.brand
+	text-align center
+	.logo
+		a
+			display block
+			text-indent -9999px
+			background-image url(../svg/educasound_logo.svg)
+			background-repeat no-repeat
+			background-position center
+			background-size contain
+	.tagline
+		font-weight 300
+		letter-spacing .15rem
+		text-transform uppercase
+		margin 0
+
+.home_header
+	width 100%
+	text-align center
+	margin 0 auto 6.25rem
+	padding 0 2rem
+	background url(../images/educasound_header-bg.jpg) no-repeat center
+	background-position center top
+	background-attachment fixed
+	align-items center
+	@media (max-width: 480px)
+		height auto
+		margin 0 0 2rem
+	.brand
+		color white
+		padding 7rem 0
+		flex-basis 60%
+		@media (max-width: 480px)
+			padding 7rem 0
+			flex-basis 100%
+		.logo
+			margin 0 0 .75rem
+			a
+				height 62px
+				background-image url(../svg/educasound_logo_white.svg)
+				@media (max-width: 480px)
+					height 40px
+		.tagline
+			font-weight 400
+			font-size .95rem
+			@media (max-width: 620px)
+				letter-spacing .05rem
+			@media (max-width:420px)
+				font-size .85rem
+	.main_menu
+		text-align center
+		margin 2rem auto
+		flex-basis 100%
+		@media (max-width: 480px)
+			margin 0
+		li
+			a
+				color white
+.site_header
+	margin 0 auto
+	padding 2rem
+	flex-flow row wrap
+	align-items center
+	justify-content space-between
+	@media (max-width: 480px)
+		margin 0 0 2rem
+		padding 4rem 0 2rem 0
+	.brand
+		flex-basis 26%
+		@media (max-width: 768px)
+			flex-basis 100%
+		.logo
+			width 250px
+			height 40px
+			margin 0 auto .5rem    
+		.tagline
+			font-size .65rem
+	.main_menu
+		text-align center
+		flex-basis 70%
+		@media (max-width: 768px)
+			flex-basis 100%
+			margin 2rem auto 0
+		@media (max-width: 480px)
+			margin 0

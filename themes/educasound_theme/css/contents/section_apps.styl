@@ -1,0 +1,46 @@
+/*_______ Section Apps _______*/
+.list
+	&.apps
+		justify-content space-around
+		.app
+			flex-basis 45%
+			@media (max-width: 768px)
+				flex-basis 48%
+			@media (max-width: 480px)
+				flex-basis 100%
+			.app_data
+				padding 2rem
+				.app_name
+					font-weight 600
+					font-size 1.75rem
+					line-height 1em
+					letter-spacing -.035rem
+					margin 0 0 .5rem
+				p
+					min-height 0
+				.app_download
+					margin 0 auto 1rem
+					&:last-of-type
+						margin 0 auto
+				.btn
+					position inherit
+					font-size 1rem
+					line-height 1em
+					padding .75rem 1rem
+					@media (max-width: 768px)
+						font-size .85rem
+					&:before
+						content ''
+						display inline-block
+						vertical-align middle
+						width 1rem
+						height 1rem
+						margin 0 .5rem 0 0
+						background url(../svg/icon_download.svg) no-repeat center
+						background-size contain
+				.app_version
+					font-weight 400
+					font-size .85rem
+					text-align center
+					color gris_claro
+					margin .15rem 0 0

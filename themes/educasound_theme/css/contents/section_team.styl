@@ -1,0 +1,43 @@
+/*_______ Section Equipo _______*/
+.member
+	flex-basis 48%
+	border none
+	@media (max-width: 768px)
+		flex-basis 48%
+	@media (max-width: 480px)
+		flex-basis 100%
+	.member_thumb
+		width 6rem
+		height 6rem
+		margin 0 .5rem .5rem 0
+		box-sizing border-box
+		border-radius 50%
+		overflow hidden
+		@media (max-width: 768px)
+			margin 0 0 .5rem
+			flex-basis initial
+	.member_data
+		flex-basis 75%
+		@media (max-width: 768px)
+			padding 0
+			flex-basis 100%
+			text-align center
+		.member_name
+			margin 0 0 .25rem
+			padding 0
+		.member_born
+			font-weight 400
+			font-style italic
+			font-size .85rem
+			color gris_claro
+			margin 0 0 .5rem
+		.member_bio
+			p
+				margin 0 0 .25rem
+				padding 0
+		.member_website
+			font-weight 300
+			font-size .9rem
+			color primary
+			&:hover
+				color gris

@@ -1,0 +1,233 @@
+/*_______ Single Curso _______*/
+.curso_header
+	text-align left
+	padding 4rem 0
+	background-position center bottom
+	background-repeat no-repeat
+	background-size cover
+	background-attachment fixed
+	position relative
+	margin 0 0 6rem
+	@media (max-width: 768px)
+		margin 0 0 4rem
+	.curso_title
+		max-width 1000px
+		margin 0 auto
+		padding 0 2rem
+		position relative
+		z-index 2
+		.curso_type
+			display table
+			font-weight 400
+			font-style normal
+			font-size .85rem
+			text-transform uppercase
+			color white
+			padding .25rem .5rem
+			background-color primary
+		.curso_name
+			max-width 60%
+			font-weight 600
+			font-style italic
+			font-size 3.25rem
+			line-height .95em
+			color white
+			margin 0
+			@media (max-width: 768px)
+				max-width none
+
+.curso_content
+	text-align left
+	justify-content space-between
+	.entry
+		flex-basis 56%
+		margin 0 2rem 2rem 0
+		@media (max-width: 768px)
+			margin 0 0 2rem
+			flex-basis 100%
+		.excerpt
+			margin 0 0 1.5rem
+			p
+				font-weight 400
+				font-size 1.375rem
+				margin 0
+		p
+			font-weight 300
+			font-size 1.125rem
+		.advert
+			border-left 2px solid primary
+			font-size 1.5rem
+			line-height 1.15em
+			color primary
+			margin 3rem 0
+			padding 0 0 0 1rem
+
+.curso_ficha
+	padding 2rem
+	box-sizing border-box
+	background-color gris_bajao
+	flex-basis 40%
+	@media (max-width: 768px)
+		flex-basis 100%
+	.feature
+		margin 0 0 1rem
+		.feature_title
+			display block
+			font-weight 300
+			font-size .95rem
+			line-height 1.25rem
+			text-transform uppercase
+			margin 0
+			&:before
+				content ''
+				display block
+				width 1.25rem
+				height 1.25rem
+				float left
+				margin 0 .25rem 0 0
+		.feature_data
+			font-size 1.25rem
+			line-height 1em
+			margin 0 0 0 1.5rem
+		&.profe
+			.feature_title
+				&:before
+					background-image url(../svg/icon_profe.svg)
+					background-repeat no-repeat
+					background-position center
+					background-size contain
+		&.nivel
+			.feature_title
+				&:before
+					background-image url(../svg/icon_level.svg)
+					background-repeat no-repeat
+					background-position center
+					background-size contain
+		&.duracion
+			.feature_title
+				&:before
+					background-image url(../svg/icon_time.svg)
+					background-repeat no-repeat
+					background-position center
+					background-size contain
+		&.precio
+			.feature_title
+				&:before
+					background-image url(../svg/icon_precio.svg)
+					background-repeat no-repeat
+					background-position center
+					background-size contain
+		&.fechas
+			margin 0
+			.feature_title
+				&:before
+					background-image url(../svg/icon_calendario.svg)
+					background-repeat no-repeat
+					background-position center
+					background-size contain
+	.convocatas
+		margin 0 0 1rem 1.5rem
+		.convocata
+			font-size .875rem
+			line-height 1.5rem
+	.no_convocatas
+		font-size .95rem
+		line-height 1.15em
+		color gris_claro
+		margin .25rem 0 .5rem .5rem
+		padding 0 0 0 .5rem
+		border-left 2px solid light
+	.btn
+		display block
+		width 100%
+		font-size 1.15rem
+		line-height 1em
+		text-transform uppercase
+		text-align center
+		color white
+		margin 1rem 0 0
+		padding .75rem 1rem
+		border none
+		box-sizing border-box
+		background-color primary
+		cursor pointer
+		outline none
+		transition all .5s ease-out
+		@media (max-width: 480px)
+			font-size 1rem
+			line-height 1.15em
+			padding .5rem
+		&:hover
+			background-color light
+	.solicilink
+		display block
+		width 100%
+		font-size .75rem
+		text-align center
+		color primary
+		text-decoration underline
+		margin 1rem 0 0 0
+		background-color transparent
+		border none
+		outline none
+		cursor pointer
+		transition all .5s ease-out
+		&:hover
+			color secondary
+
+.curso_contenidos
+	text-align center
+	color white
+	padding 2rem
+	background-color negro
+	.title
+		flex-basis 100%
+		margin 0 0 2rem
+	.temas
+		max-width 1000px
+		margin 0 auto
+		align-items stretch
+		.tema
+			text-align left
+			margin 0 0 2rem
+			padding 0 2rem
+			box-sizing border-box
+			flex-basis 33%
+			@media (max-width: 480px)
+				padding 0 1rem
+				flex-basis 100%
+			&:before
+				content ''
+				display block
+				float left
+				width 1.5rem
+				height 1.5rem
+				margin 0 .25rem 0
+				background url(../svg/icon_check.svg) no-repeat center
+			h4
+				font-weight 600
+				font-size 1.125rem
+				margin 0 0 .25rem 2rem
+			p
+				font-weight 400
+				font-size .875rem
+				margin 0 0 .5rem 2rem
+			&:last-of-type
+				margin 0
+	.temario
+		display inline-block
+		color white
+		padding .5rem 1rem
+		flex-basis 100%
+		margin 2rem auto 1rem
+		@media (max-width: 480px)
+			font-size 1rem
+			line-height 1.5rem
+		&:before
+			content ''
+			display inline-block
+			vertical-align middle
+			width 1.5rem
+			height 1.5rem
+			margin 0 .25rem 0 0
+			background url(../svg/icon_document.svg) no-repeat center

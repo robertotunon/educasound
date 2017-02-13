@@ -1,0 +1,41 @@
+/*_______ Section Agenda _______*/
+.convocatoria
+	border none
+	margin 0 0 2rem
+	padding 0 0 .5rem
+	border-bottom 1px solid gris_claro
+	overflow hidden
+	justify-content space-between
+	.convoca_data
+		flex-basis 75%
+		padding 0
+		@media (max-width: 768px)
+			flex-basis 100%
+		.convoca_date
+			font-size 1.25rem
+			line-height 1em
+			margin 0 0 .5rem
+		.convoca_curso
+			font-weight 700
+			line-height 1em
+			letter-spacing -0.035rem
+			margin 0 0 .5rem
+		.convoca_lugar
+			line-height 1em
+			margin 0
+			@media (max-width: 768px)
+				margin 0 0 1rem
+	.btn
+		flex-basis 15%
+		align-self center
+		color white
+		background-color primary
+		border none
+		position inherit
+		left inherit
+		right inherit
+		bottom inherit
+		@media (max-width: 768px)
+			flex-basis 100%
+		&:hover
+			background-color secondary
