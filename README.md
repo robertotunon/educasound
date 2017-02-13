@@ -1,5 +1,5 @@
 # EducaSound
-WordPress theme for <a href="http://educasound.com" target="_blank">educasound.com</a>
+WordPress theme and custom functions plugin for <a href="http://educasound.com" target="_blank">educasound.com</a>
 
 Originally designed and developed in December 2015.
 
